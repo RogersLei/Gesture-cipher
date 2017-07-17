@@ -1,0 +1,40 @@
+@charset "utf-8";
+body,h1,h2,h3,h4,h5,h6,p,li{
+	margin: 0;
+	padding: 0;
+}
+hr{margin: 0;}
+body{
+	font-family: "Microsoft YaHei" !important;
+	color: #000;
+	font-size: 18px;
+	text-align: center;
+}
+/* 小屏幕手机 */
+@media screen and (max-width: 320px){}
+/* 大屏幕手机 */
+@media screen and (min-width: 320px) and (max-width: 768px){} 
+/* 平板 */
+@media screen and (min-width: 768px) and (max-width: 1024px){}
+/* PC */
+@media screen and (min-width: 1024px){}
+.title{
+	height: 50px;
+}
+.bg{
+	background-color: #f0f0f2;
+}
+.content{
+	overflow: hidden;
+}
+.main{
+	margin-top: 30px;
+}
+.tips{
+	margin-top: 30px;
+
+}
+.select{
+	margin-top: 30px;
+}
+

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"content="width=device-width,initial-scale=1.0,user-scalable=no" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="init.js"></script>
+	<title>手势密码</title>
+</head>
+<body>
+<div class="title">
+	<h1>手势密码</h1>
+	<hr />
+</div>
+<div class="bg">
+	<div class="content">
+		<div class="main">
+			<canvas id="canvas"></canvas>
+		</div>
+	</div>
+	<div class="tips">
+		<span id="tips">请输入手势密码</span>
+	</div>
+	<div class="select" onchange="refresh()">
+		<input type="radio" name="select" id="set" checked="true">&nbsp&nbsp&nbsp&nbsp<label for="set">设置密码</label>
+		<br/><br/>
+		<input type="radio" name="select" id="test" >&nbsp&nbsp&nbsp&nbsp<label for="test">验证密码</label>
+	</div>
+</div>
+<script type="text/javascript">
+	function refresh() {
+		location.reload();
+	}
+</script>
+</body>
+</html>
